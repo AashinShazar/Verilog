@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/simulation/modelsim
+vhard_block
+Z1 !s110 1586813509
+!i10b 1
+!s100 8>9H[z4=ZPnzX8W11YW6g1
+I]`JTLS18d4[]U:IN4[`Hb2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1586811420
+Z4 8Keyboard_7_1200mv_0c_slow.vo
+Z5 FKeyboard_7_1200mv_0c_slow.vo
+L0 586
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1586813509.000000
+Z8 !s107 Keyboard_7_1200mv_0c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Keyboard_7_1200mv_0c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vKeyboard
+R1
+!i10b 1
+!s100 0_4b^;15:2QR;FA@LNLzZ1
+I:]Qj4_KNMiVnQd_7V@Z<o3
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@keyboard
+vkeyboard_tb
+R1
+!i10b 1
+!s100 a45dcSn25>`WCV^D;@]V71
+IH`CMi<S0[a96kEgDN47UD0
+R2
+R0
+w1586811774
+8G:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/../Verilog/keyboard_tb.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/../Verilog/keyboard_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/../Verilog/keyboard_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/../Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/../Verilog/keyboard_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Quartus/../Verilog
+R12

@@ -1,0 +1,16 @@
+module my_dLatch(D,G,Q);
+
+	input D, G, clk;
+	output Q;
+	
+	reg Qint;
+
+	always @(D or G)
+		begin
+			if (G)
+			Qint <= D;
+		end
+		
+		assign Q = Qint;
+
+endmodule 

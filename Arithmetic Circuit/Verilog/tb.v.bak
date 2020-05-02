@@ -1,0 +1,15 @@
+`timescale 1ns/1ps
+module tb();
+	
+	reg A, B, s0, s1, Cin;
+	wire Cout, F;
+	
+	initial begin
+		
+		
+	end
+	
+	ArithmeticCircuit(.A(), .B(), .s0(), .s1(), .Cin(), .Cout(), .F());
+	
+endmodule
+

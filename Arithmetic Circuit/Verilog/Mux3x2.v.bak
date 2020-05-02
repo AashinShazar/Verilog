@@ -1,0 +1,19 @@
+module Mux3X2(i, S, F)
+	input [2:0] i;
+	input [1:0] S;
+	output F;
+	
+	reg F;
+	
+	always @(*)
+	begin
+		case S
+			
+		
+		
+		endcase
+	end
+	
+	
+endmodule
+	

@@ -1,0 +1,16 @@
+module Mux2x1(X, Y, S0, F)
+	input X, Y, S0;
+	output F;
+	
+	reg F;
+	
+	always @(*)
+	begin
+		case S0
+			1'b0 : F = X;
+			1'b1 : F = Y;
+		endcase
+	end
+	
+endmodule
+	

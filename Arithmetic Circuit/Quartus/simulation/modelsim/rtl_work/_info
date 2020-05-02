@@ -1,0 +1,147 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/simulation/modelsim
+vArithmeticCircuit
+Z1 !s110 1581984918
+!i10b 1
+!s100 7V[9KeefLDV59jB0KRP6z1
+Iz<o8?lm2SAK_>]]Fz[^Q=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1581977760
+8G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuit.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuit.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1581984918.000000
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuit.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog
+Z7 tCvgOpt 0
+n@arithmetic@circuit
+vArithmeticCircuitSingle
+R1
+!i10b 1
+!s100 [aCGj0W^M?380EJGD<j5H2
+IH79gzO`zF9a;=QBf]XggW0
+R2
+R0
+w1581977079
+8G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuitSingle.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuitSingle.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuitSingle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/ArithmeticCircuitSingle.v|
+!i113 1
+R5
+R6
+R7
+n@arithmetic@circuit@single
+vFullAdder
+!s110 1581984917
+!i10b 1
+!s100 ge7^TCISC[4RMo256co:J0
+IF::>?gM?d]I4RTXKVE0ne0
+R2
+R0
+w1581937728
+8G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/FullAdder.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/FullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1581984917.000000
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/FullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/FullAdder.v|
+!i113 1
+R5
+R6
+R7
+n@full@adder
+vMux2x1
+R1
+!i10b 1
+!s100 eDmgna;ZHY@zlZ1EW_U^02
+I;PMCPofPlKmVP6;T369Ue2
+R2
+R0
+w1581937685
+8G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux2x1.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux2x1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux2x1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux2x1.v|
+!i113 1
+R5
+R6
+R7
+n@mux2x1
+vMux3X2
+R1
+!i10b 1
+!s100 E?J3cJV7U_i;IPd5k_:_N2
+I8WjcZd[BVk:XoVg2Y3G1O3
+R2
+R0
+w1581932420
+8G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux3x2.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux3x2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux3x2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab2/Verilog/Mux3x2.v|
+!i113 1
+R5
+R6
+R7
+n@mux3@x2
+vtb
+R1
+!i10b 1
+!s100 1bIao2zcFM=6;G]4IZ5kZ1
+I`2Fm5cElGO]6aQh@:XzUl1
+R2
+R0
+w1581977758
+8G:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/../Verilog/tb.v
+FG:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/../Verilog/tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/../Verilog/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/../Verilog|G:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/../Verilog/tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab2/Quartus/../Verilog
+R7

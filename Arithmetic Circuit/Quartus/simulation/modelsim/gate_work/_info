@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/simulation/modelsim
+vArithmeticCircuit
+Z1 !s110 1582256981
+!i10b 1
+!s100 3ajSXHYQKj879^o]a`FR80
+IK>76n[[1NOAmA8D^jki:j3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1582256973
+Z4 8ArithmeticCircuit.vo
+Z5 FArithmeticCircuit.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1582256980.000000
+Z8 !s107 ArithmeticCircuit.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ArithmeticCircuit.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@arithmetic@circuit
+vhard_block
+R1
+!i10b 1
+!s100 ^aL@melck;>=<jf0`AYD=0
+I@lXeT2CP<`im5Qo3zD;9R2
+R2
+R0
+R3
+R4
+R5
+L0 507
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vtb
+R1
+!i10b 1
+!s100 1bIao2zcFM=6;G]4IZ5kZ1
+Iab5Jld<S??T?MHR2:n3[g0
+R2
+R0
+w1581977758
+8C:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/../Verilog/tb.v
+FC:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/../Verilog/tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+!s108 1582256981.000000
+!s107 C:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/../Verilog/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/../Verilog|C:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/../Verilog/tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/aashi/OneDrive/Desktop/Lab2/Quartus/../Verilog
+R12

@@ -1,0 +1,5 @@
+module sr11(sIn,sOut, clk, valid)
+	
+	
+
+endmodule 

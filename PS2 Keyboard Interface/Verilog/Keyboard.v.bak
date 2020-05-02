@@ -1,0 +1,10 @@
+module Keyboard(ps2c,ps2d, clk, prev_seg1, prev_seg0, curr_seg1, curr_seg0);
+	
+	input ps2c, ps2d , clk;
+	output [6:0] prev_seg1, prev_seg0, curr_seg1, curr_seg0;
+	
+
+
+
+
+endmodule 

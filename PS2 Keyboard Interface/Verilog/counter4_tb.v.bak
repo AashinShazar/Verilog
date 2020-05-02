@@ -1,0 +1,9 @@
+module counter4_tb()
+
+	reg clk, in;
+	wire out;
+	
+	counter4	i0(in,out,clk);
+	
+
+endmodule 

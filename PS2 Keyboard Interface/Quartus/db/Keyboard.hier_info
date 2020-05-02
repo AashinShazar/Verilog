@@ -1,0 +1,306 @@
+|Keyboard
+ps2c => ps2c.IN1
+ps2d => ps2d.IN1
+clk => clk.IN5
+prev_seg1[0] << hex_display:h3.seg_out
+prev_seg1[1] << hex_display:h3.seg_out
+prev_seg1[2] << hex_display:h3.seg_out
+prev_seg1[3] << hex_display:h3.seg_out
+prev_seg1[4] << hex_display:h3.seg_out
+prev_seg1[5] << hex_display:h3.seg_out
+prev_seg1[6] << hex_display:h3.seg_out
+prev_seg0[0] << hex_display:h2.seg_out
+prev_seg0[1] << hex_display:h2.seg_out
+prev_seg0[2] << hex_display:h2.seg_out
+prev_seg0[3] << hex_display:h2.seg_out
+prev_seg0[4] << hex_display:h2.seg_out
+prev_seg0[5] << hex_display:h2.seg_out
+prev_seg0[6] << hex_display:h2.seg_out
+curr_seg1[0] << hex_display:h1.seg_out
+curr_seg1[1] << hex_display:h1.seg_out
+curr_seg1[2] << hex_display:h1.seg_out
+curr_seg1[3] << hex_display:h1.seg_out
+curr_seg1[4] << hex_display:h1.seg_out
+curr_seg1[5] << hex_display:h1.seg_out
+curr_seg1[6] << hex_display:h1.seg_out
+curr_seg0[0] << hex_display:h0.seg_out
+curr_seg0[1] << hex_display:h0.seg_out
+curr_seg0[2] << hex_display:h0.seg_out
+curr_seg0[3] << hex_display:h0.seg_out
+curr_seg0[4] << hex_display:h0.seg_out
+curr_seg0[5] << hex_display:h0.seg_out
+curr_seg0[6] << hex_display:h0.seg_out
+rst => rst.IN4
+
+
+|Keyboard|edge_det:i0
+ps2c => ps2c.IN1
+clk => clk.IN2
+validsr <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+rst => rst.IN2
+
+
+|Keyboard|edge_det:i0|my_dff:i0
+D => Qint.DATAB
+clk => Qint.CLK
+Q <= Qint.DB_MAX_OUTPUT_PORT_TYPE
+rst => Qint.OUTPUTSELECT
+
+
+|Keyboard|edge_det:i0|my_dff:i1
+D => Qint.DATAB
+clk => Qint.CLK
+Q <= Qint.DB_MAX_OUTPUT_PORT_TYPE
+rst => Qint.OUTPUTSELECT
+
+
+|Keyboard|sr11:i1
+sIn => sOut[10]~reg0.DATAIN
+sOut[0] <= sOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[1] <= sOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[2] <= sOut[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[3] <= sOut[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[4] <= sOut[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[5] <= sOut[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[6] <= sOut[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[7] <= sOut[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[8] <= sOut[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[9] <= sOut[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[10] <= sOut[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => sOut[0]~reg0.CLK
+clk => sOut[1]~reg0.CLK
+clk => sOut[2]~reg0.CLK
+clk => sOut[3]~reg0.CLK
+clk => sOut[4]~reg0.CLK
+clk => sOut[5]~reg0.CLK
+clk => sOut[6]~reg0.CLK
+clk => sOut[7]~reg0.CLK
+clk => sOut[8]~reg0.CLK
+clk => sOut[9]~reg0.CLK
+clk => sOut[10]~reg0.CLK
+enable => sOut[0]~reg0.ENA
+enable => sOut[1]~reg0.ENA
+enable => sOut[2]~reg0.ENA
+enable => sOut[3]~reg0.ENA
+enable => sOut[4]~reg0.ENA
+enable => sOut[5]~reg0.ENA
+enable => sOut[6]~reg0.ENA
+enable => sOut[7]~reg0.ENA
+enable => sOut[8]~reg0.ENA
+enable => sOut[9]~reg0.ENA
+enable => sOut[10]~reg0.ENA
+
+
+|Keyboard|counter4:i2
+in => always1.IN0
+in => Selector1.IN3
+in => Selector2.IN3
+in => Selector3.IN3
+in => Selector4.IN3
+in => Selector5.IN3
+in => Selector6.IN3
+in => Selector7.IN3
+in => Selector8.IN3
+in => Selector9.IN3
+in => Selector10.IN3
+in => Selector0.IN3
+in => Selector10.IN1
+in => Selector9.IN1
+in => Selector8.IN1
+in => Selector7.IN1
+in => Selector6.IN1
+in => Selector5.IN1
+in => Selector4.IN1
+in => Selector3.IN1
+in => Selector2.IN1
+in => Selector1.IN1
+in => Selector0.IN1
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => out~reg0.CLK
+clk => sta~1.DATAIN
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => sta.OUTPUTSELECT
+rst => out~reg0.ENA
+
+
+|Keyboard|buffer8:i3
+sIn[0] => sOut.DATAB
+sIn[1] => sOut.DATAB
+sIn[2] => sOut.DATAB
+sIn[3] => sOut.DATAB
+sIn[4] => sOut.DATAB
+sIn[5] => sOut.DATAB
+sIn[6] => sOut.DATAB
+sIn[7] => sOut.DATAB
+sIn[8] => sOut.DATAB
+sIn[9] => sOut.DATAB
+sIn[10] => sOut.DATAB
+sOut[0] <= sOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[1] <= sOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[2] <= sOut[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[3] <= sOut[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[4] <= sOut[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[5] <= sOut[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[6] <= sOut[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[7] <= sOut[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[8] <= sOut[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[9] <= sOut[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[10] <= sOut[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+clk => sOut[0]~reg0.CLK
+clk => sOut[1]~reg0.CLK
+clk => sOut[2]~reg0.CLK
+clk => sOut[3]~reg0.CLK
+clk => sOut[4]~reg0.CLK
+clk => sOut[5]~reg0.CLK
+clk => sOut[6]~reg0.CLK
+clk => sOut[7]~reg0.CLK
+clk => sOut[8]~reg0.CLK
+clk => sOut[9]~reg0.CLK
+clk => sOut[10]~reg0.CLK
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+
+
+|Keyboard|buffer8:i4
+sIn[0] => sOut.DATAB
+sIn[1] => sOut.DATAB
+sIn[2] => sOut.DATAB
+sIn[3] => sOut.DATAB
+sIn[4] => sOut.DATAB
+sIn[5] => sOut.DATAB
+sIn[6] => sOut.DATAB
+sIn[7] => sOut.DATAB
+sIn[8] => sOut.DATAB
+sIn[9] => sOut.DATAB
+sIn[10] => sOut.DATAB
+sOut[0] <= sOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[1] <= sOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[2] <= sOut[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[3] <= sOut[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[4] <= sOut[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[5] <= sOut[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[6] <= sOut[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[7] <= sOut[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[8] <= sOut[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[9] <= sOut[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sOut[10] <= sOut[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+enable => sOut.OUTPUTSELECT
+clk => sOut[0]~reg0.CLK
+clk => sOut[1]~reg0.CLK
+clk => sOut[2]~reg0.CLK
+clk => sOut[3]~reg0.CLK
+clk => sOut[4]~reg0.CLK
+clk => sOut[5]~reg0.CLK
+clk => sOut[6]~reg0.CLK
+clk => sOut[7]~reg0.CLK
+clk => sOut[8]~reg0.CLK
+clk => sOut[9]~reg0.CLK
+clk => sOut[10]~reg0.CLK
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+rst => sOut.OUTPUTSELECT
+
+
+|Keyboard|hex_display:h0
+seg_in[0] => Decoder0.IN3
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[3] => Decoder0.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Keyboard|hex_display:h1
+seg_in[0] => Decoder0.IN3
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[3] => Decoder0.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Keyboard|hex_display:h2
+seg_in[0] => Decoder0.IN3
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[3] => Decoder0.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Keyboard|hex_display:h3
+seg_in[0] => Decoder0.IN3
+seg_in[1] => Decoder0.IN2
+seg_in[2] => Decoder0.IN1
+seg_in[3] => Decoder0.IN0
+seg_out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

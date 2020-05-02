@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "prev_seg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_seg0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_seg0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ps2c",
+					"strict" : false
+				},
+				{
+					"name" : "ps2d",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

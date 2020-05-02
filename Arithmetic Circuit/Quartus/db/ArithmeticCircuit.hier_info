@@ -1,0 +1,235 @@
+|ArithmeticCircuit
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => Cin.IN1
+s1 => s1.IN4
+s0 => s0.IN4
+Cout << ArithmeticCircuitSingle:z3.Cout
+F[0] << ArithmeticCircuitSingle:z0.F
+F[1] << ArithmeticCircuitSingle:z1.F
+F[2] << ArithmeticCircuitSingle:z2.F
+F[3] << ArithmeticCircuitSingle:z3.F
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z0
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+s1 => s1.IN1
+s0 => s0.IN2
+Cout <= FullAdder:i0.Cout
+F <= FullAdder:i0.Sum
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z0|Mux3X2:x0
+i0 => i0.IN1
+i1 => i1.IN1
+i2 => i2.IN1
+s0 => s0.IN1
+s1 => s1.IN1
+F <= Mux2x1:a1.F
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z0|Mux3X2:x0|Mux2x1:a0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z0|Mux3X2:x0|Mux2x1:a1
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z0|Mux2x1:y0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z0|FullAdder:i0
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+s1 => s1.IN1
+s0 => s0.IN2
+Cout <= FullAdder:i0.Cout
+F <= FullAdder:i0.Sum
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z1|Mux3X2:x0
+i0 => i0.IN1
+i1 => i1.IN1
+i2 => i2.IN1
+s0 => s0.IN1
+s1 => s1.IN1
+F <= Mux2x1:a1.F
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z1|Mux3X2:x0|Mux2x1:a0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z1|Mux3X2:x0|Mux2x1:a1
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z1|Mux2x1:y0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z1|FullAdder:i0
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+s1 => s1.IN1
+s0 => s0.IN2
+Cout <= FullAdder:i0.Cout
+F <= FullAdder:i0.Sum
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z2|Mux3X2:x0
+i0 => i0.IN1
+i1 => i1.IN1
+i2 => i2.IN1
+s0 => s0.IN1
+s1 => s1.IN1
+F <= Mux2x1:a1.F
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z2|Mux3X2:x0|Mux2x1:a0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z2|Mux3X2:x0|Mux2x1:a1
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z2|Mux2x1:y0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z2|FullAdder:i0
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+s1 => s1.IN1
+s0 => s0.IN2
+Cout <= FullAdder:i0.Cout
+F <= FullAdder:i0.Sum
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z3|Mux3X2:x0
+i0 => i0.IN1
+i1 => i1.IN1
+i2 => i2.IN1
+s0 => s0.IN1
+s1 => s1.IN1
+F <= Mux2x1:a1.F
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z3|Mux3X2:x0|Mux2x1:a0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z3|Mux3X2:x0|Mux2x1:a1
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z3|Mux2x1:y0
+i0 => F.DATAA
+i1 => F.DATAB
+S => Decoder0.IN0
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ArithmeticCircuit|ArithmeticCircuitSingle:z3|FullAdder:i0
+A => Sum.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => Sum.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => Sum.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

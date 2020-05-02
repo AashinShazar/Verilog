@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/simulation/modelsim
+vbuffer8
+Z1 !s110 1587331947
+!i10b 1
+!s100 CAUUHWh=9Qfz[84d7V3?Q3
+IjIhzVk=8=kK]Kc;nj<o0O1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1587237503
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/buffer8.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/buffer8.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1587331947.000000
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/buffer8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/buffer8.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog}
+Z7 tCvgOpt 0
+vcounter4
+R1
+!i10b 1
+!s100 eM0IcoQ4QSM4Z7<<AgVoY0
+I0V<9G4zVUFH14UdoGZFTn0
+R2
+R0
+w1587237623
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/counter4.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/counter4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/counter4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/counter4.v|
+!i113 1
+R5
+R6
+R7
+vedge_det
+Z8 !s110 1587331946
+!i10b 1
+!s100 Sl:1i[9VkBghlCc7]W5Hm3
+IOU;IzWl<=RCS]B?B<>?M01
+R2
+R0
+w1586972730
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/edge_det.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/edge_det.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1587331946.000000
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/edge_det.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/edge_det.v|
+!i113 1
+R5
+R6
+R7
+vhex_display
+R8
+!i10b 1
+!s100 Md=IjPjVh_GIZWi8iO9Ee0
+I>65MecR22HnS7?ChYH4Qj0
+R2
+R0
+w1586794359
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/hex_display.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/hex_display.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/hex_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/hex_display.v|
+!i113 1
+R5
+R6
+R7
+vKeyboard
+Z10 !s110 1587331948
+!i10b 1
+!s100 a>6?O9zFXO7LRk@Lm:zhA3
+IQzEThWK8LR]MfHSHWOzBI0
+R2
+R0
+w1587256232
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/Keyboard.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/Keyboard.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/Keyboard.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/Keyboard.v|
+!i113 1
+R5
+R6
+R7
+n@keyboard
+vmy_dff
+R8
+!i10b 1
+!s100 FYh9RL:NXLWHE8jCdd6Xa1
+Ijmd];]zW13D:TAKKjb4bk1
+R2
+R0
+w1587237588
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/my_dff.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/my_dff.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/my_dff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/my_dff.v|
+!i113 1
+R5
+R6
+R7
+vsr11
+R1
+!i10b 1
+!s100 HDmg];C^iY5228Lm^_cNV3
+IjiAj80Bla8?RO=Q7PedW;0
+R2
+R0
+w1586796162
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/sr11.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/sr11.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/sr11.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Verilog/sr11.v|
+!i113 1
+R5
+R6
+R7
+vtb
+R10
+!i10b 1
+!s100 ceL2ZlC2=MkWGmOGZ]ZKW3
+IoTKVI4PLkfZFa^:Q4ogYb3
+R2
+R0
+w1587329981
+8C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/../Verilog/tb.v
+FC:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/../Verilog/tb.v
+L0 10
+R3
+r1
+!s85 0
+31
+!s108 1587331948.000000
+!s107 C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/../Verilog/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/../Verilog|C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/../Verilog/tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+C:/Users/aashi/OneDrive/Desktop/school/SFSU/semester5 S20/ENGR 378/Lab5/Lab5/Quartus/../Verilog}
+R7

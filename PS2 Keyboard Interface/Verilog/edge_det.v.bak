@@ -1,0 +1,12 @@
+module edge_det(ps2c,clk,d);
+	
+	input pst2c, clk;
+	output d;
+	
+	wire a;
+	
+	my_dff	(.D(ps2c), .clk(clk), .Q(a));
+	my_dff	(.D(a), .clk(clk), .Q(d));
+	
+
+endmodule 

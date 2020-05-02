@@ -1,0 +1,15 @@
+module buffer8(sIn,valid,sout);
+	
+	input reg [10:0] sIn;
+	output [10;0] sOut;
+	
+	input valid;
+	
+	always @(sIn or valid) begin
+		
+		if (valid)
+			sIn <= sOut;
+		
+	end
+
+endmodule

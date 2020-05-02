@@ -1,0 +1,15 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/hex_display.v}
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/my_dff.v}
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/edge_det.v}
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/sr11.v}
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/buffer8.v}
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/counter4.v}
+vlog -vlog01compat -work work +incdir+G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog {G:/Files/DigitalSystemDesign/Laboratory/Lab5/Verilog/Keyboard.v}
+

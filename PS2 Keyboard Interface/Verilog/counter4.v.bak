@@ -1,0 +1,26 @@
+module counter4(in,out,clk);
+
+	input clk, in;
+	output out;
+	
+	reg [2:0] sta;
+	reg [2:0] stn;
+	
+	always @(*) begin
+	
+		case (sta)
+			default: stn = 0;
+			0: stn = in? 3’b010:3’b001;
+			1: stn = in? 3’b100:3’b011;
+			2: stn = in? 3’b101:3’b110;
+			3: stn = in? 3’b100:3’b011;
+			4: stn = in? 3’b110:3’b101;
+			5: stn = in? 3’b100:3’b011;
+			6: stn = in? 3’b110:3’b101;
+
+
+	
+	end
+
+
+endmodule;
